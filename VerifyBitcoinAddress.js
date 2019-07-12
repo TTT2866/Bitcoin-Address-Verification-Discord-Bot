@@ -1,6 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-var WAValidator = require('wallet-address-validator');
+var WAValidator = require('wallet-address-validator'); //npm install wallet-address-validator 
+//https://www.npmjs.com/package/wallet-address-validator
 client.login('123456789'); //Bot login tokin goes here
 
 
